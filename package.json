@@ -15,8 +15,9 @@
   "dependencies": {
     "@primeuix/themes": "^3.0.0",
     "bootstrap": "^5.3.8",
-    "primevue": "4.0.0",
-    "vue": "^3.5.40"
+    "primevue": "^4.0.0",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

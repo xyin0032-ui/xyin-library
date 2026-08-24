@@ -1,7 +1,16 @@
 <script setup>
-import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
+import BHeader from './components/BHeader.vue'
 </script>
 
 <template>
-  <LibraryRegistrationForm />
+  <BHeader />
+
+  <router-view></router-view>
 </template>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
